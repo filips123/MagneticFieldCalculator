@@ -14,7 +14,7 @@ This project magnetic field calculator. It uses is British Geological Survey (BG
 
 The web service makes the World Magnetic Model (WMM), the International Geomagnetic Reference Field (IGRF) and the BGS Global Geomagnetic Model (BGGM) available as a web service. The IGRF and WMM have no restrictions on use, the BGGM is only available to subscribers. The API provides options to select which model and revision to use. Values of the magnetic field at any point around the world can be retrieved for a given date.
 
-**The project is not part of the BGS. It is just API client for it, made by community. For any information about BGS, you should use [the official website][link-bgs]**
+**The project is not part of the BGS. It is just API client for it, made by community. For any information about BGS, you should use [the official website][link-bgs].**
 
 ## Usage
 
