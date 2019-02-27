@@ -2,6 +2,7 @@
 
 # pylint: disable=C0103
 # pylint: disable=R0201
+# pylint: disable=W0703
 
 import argparse
 import sys
