@@ -6,11 +6,13 @@ def readme():
 
 setup(
     name = 'magnetic-field-calculator',
-    version = '1.0.0',
     description = 'Python API for British Geological Survey magnetic field calculator',
     long_description = readme(),
     long_description_content_type='text/markdown',
     license = 'GPLv3+',
+
+    version_format='{tag}',
+    setup_requires=['setuptools-git-version'],
 
     packages = ['magnetic_field_calculator'],
 
