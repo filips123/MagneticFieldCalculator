@@ -51,7 +51,7 @@ def main():
     calculator = MagneticFieldCalculator()
 
     # Get result
-    result = calculator.calculate(latitude=-80, longitude=240, altitude=100, date='2017-07-02')
+    result = calculator.calculate(latitude=-80, longitude=240, altitude=100, date='2027-07-02')
 
     # Calculate field value
     calculate_field_value(result)
