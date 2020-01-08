@@ -35,7 +35,7 @@ Model, it's revisions and custom URS can be changed with parameters:
 ```python
 calculator = MagneticFieldCalculator(
     model='wmm',
-    revision='2015',
+    revision='2020',
     sub_revision='2',
     custom_url='https://example.com'
 )
@@ -48,7 +48,7 @@ result = calculator.calculate(
     latitude=-80,
     longitude=140,
     altitude=200,
-    date='2018-12-31'
+    date='2028-12-31'
 )
 ```
 
